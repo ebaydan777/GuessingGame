@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_level_three"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.mesa.guessinggame.LevelThree"
+    android:background="@android:color/black">
+
+    <Button
+        android:text="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonOne"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/buttonTwo" />
+
+    <Button
+        android:text="3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp"
+        android:id="@+id/buttonThree"
+        android:layout_alignTop="@+id/buttonTwo" />
+
+    <Button
+        android:text="6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/buttonFive"
+        android:layout_alignLeft="@+id/buttonThree"
+        android:layout_alignStart="@+id/buttonThree"
+        android:id="@+id/buttonSix" />
+
+    <Button
+        android:text="7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonFour"
+        android:layout_alignLeft="@+id/buttonFour"
+        android:layout_alignStart="@+id/buttonFour"
+        android:layout_marginTop="24dp"
+        android:id="@+id/buttonSeven" />
+
+    <Button
+        android:text="9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonEight"
+        android:layout_alignLeft="@+id/buttonSix"
+        android:layout_alignStart="@+id/buttonSix"
+        android:id="@+id/buttonNine" />
+
+    <Button
+        android:text="10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/buttonTen"
+        android:layout_below="@+id/buttonEight"
+        android:layout_alignLeft="@+id/buttonEight"
+        android:layout_alignStart="@+id/buttonEight" />
+
+    <Button
+        android:text="8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonEight"
+        android:layout_alignBaseline="@+id/buttonSeven"
+        android:layout_alignBottom="@+id/buttonSeven"
+        android:layout_alignLeft="@+id/buttonFive"
+        android:layout_alignStart="@+id/buttonFive" />
+
+    <TextView
+        android:text="Level 3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:id="@+id/textLevelThree"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonFive"
+        android:layout_below="@+id/textLevelThree"
+        android:layout_alignRight="@+id/textLevelThree"
+        android:layout_alignEnd="@+id/textLevelThree"
+        android:layout_marginTop="117dp" />
+
+    <Button
+        android:text="4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonFour"
+        android:layout_alignBaseline="@+id/buttonFive"
+        android:layout_alignBottom="@+id/buttonFive"
+        android:layout_alignLeft="@+id/buttonOne"
+        android:layout_alignStart="@+id/buttonOne" />
+
+    <Button
+        android:text="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:id="@+id/buttonOne"
+        android:layout_marginBottom="24dp"
+        android:layout_above="@+id/buttonFour"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Score: 999"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/highScoreText"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/buttonSeven"
+        android:layout_alignStart="@+id/buttonSeven"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:text="Replay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonReplay"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

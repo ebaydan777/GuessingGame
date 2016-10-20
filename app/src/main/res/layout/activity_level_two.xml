@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_level_two"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.mesa.guessinggame.LevelTwo"
+    android:background="@android:color/black">
+
+    <Button
+        android:text="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="61dp"
+        android:id="@+id/buttonOneLevelTwo"
+        android:layout_below="@+id/textLevelTwo"
+        android:layout_toLeftOf="@+id/textLevelTwo"
+        android:layout_toStartOf="@+id/textLevelTwo" />
+
+    <TextView
+        android:text="Level 2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:id="@+id/textLevelTwo"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Score: 999"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="39dp"
+        android:id="@+id/levelTwoHighScore"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/buttonOneLevelTwo"
+        android:layout_alignStart="@+id/buttonOneLevelTwo" />
+
+    <Button
+        android:text="Replay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonReplayLevelTwo"
+        android:layout_alignBaseline="@+id/levelTwoHighScore"
+        android:layout_alignBottom="@+id/levelTwoHighScore"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonTwoLevelTwo"
+        android:layout_alignBaseline="@+id/buttonOneLevelTwo"
+        android:layout_alignBottom="@+id/buttonOneLevelTwo"
+        android:layout_alignRight="@+id/textLevelTwo"
+        android:layout_alignEnd="@+id/textLevelTwo" />
+
+    <Button
+        android:text="4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonFour"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/buttonOneLevelTwo"
+        android:layout_alignLeft="@+id/buttonOneLevelTwo"
+        android:layout_alignStart="@+id/buttonOneLevelTwo"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp" />
+
+    <Button
+        android:text="5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonFive"
+        android:layout_alignBaseline="@+id/buttonFour"
+        android:layout_alignBottom="@+id/buttonFour"
+        android:layout_alignLeft="@+id/buttonTwoLevelTwo"
+        android:layout_alignStart="@+id/buttonTwoLevelTwo"
+        android:layout_marginLeft="55dp"
+        android:layout_marginStart="55dp" />
+
+    <Button
+        android:text="3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonThreeLevelTwo"
+        android:layout_alignBaseline="@+id/buttonTwoLevelTwo"
+        android:layout_alignBottom="@+id/buttonTwoLevelTwo"
+        android:layout_toRightOf="@+id/buttonTwoLevelTwo"
+        android:layout_toEndOf="@+id/buttonTwoLevelTwo"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp" />
+</RelativeLayout>
